@@ -48,7 +48,11 @@
 
         git add . #添加除了被忽略的之外的所有文件
 
-评价：缺点：需要了解.gitignore文件的规则。优点：在后面git status会忽略被忽略的文件的状态
+评价：
+1. 缺点：需要了解.gitignore文件的规则。优点：在后面git status会忽略被忽略的文件的状态
+2. There is a bug that git ignore .gitignore when using git add -u. See [the solution](https://stackoverflow.com/questions/11451535/gitignore-is-ignored-by-git).
+
+
 
 #### 列出目前所有被追踪的文件
 
