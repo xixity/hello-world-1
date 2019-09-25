@@ -43,6 +43,7 @@
 
 创建.gitignore文件 ：Specifies intentionally untracked files to ignore
 并自定义需要忽略的文件
+补充阅读：[Git-gitignore Documentation](https://git-scm.com/docs/gitignore)
 
         git add . #添加除了被忽略的之外的所有文件
 
