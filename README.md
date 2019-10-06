@@ -78,7 +78,7 @@
 #### 将本地分支上传到github
 
     git push http://github.com/xxx/hello.git #上传github
-    git push -u origin master -f #如果报错强制push
+    git push -u $PROJECT master -f #如果报错强制push
     git remote set-url origin http://github.com/GarfieldF/RGBT-tracking.git #如果地址错误，重定向GitHub仓库地址
 
 ----
